@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.item {
+  max-width: 200px;
+  border: 2px solid green;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.pagination {
+  background-color: rgba(171, 245, 230, 0.416);
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loading {
+  width: 100%;
+  text-align: center;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.inputForm input {
+  display: block;
+  padding: 8px;
+  width: 40vw;
+  border-radius: 12px;
+}
